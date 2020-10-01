@@ -8,10 +8,10 @@ export const extractWordsFrom = (data: string): Array<string> => {
 }
 
 export const extractKeysFrom = (keys: Array<string>) => {
-  // trim process.env form everywhere
+  // trim extra items
   keys = keys.map((key) => key.substr(12))
 
-  // remove normal mentions of process.env
+  // remove normal mentions of process<dot>env
   keys = keys.filter((key) => key.length !== 0)
 
   // remove duplicates

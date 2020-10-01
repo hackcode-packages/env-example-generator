@@ -1,4 +1,4 @@
 export const SAMPLES = {
-  ONE: "./collection/SAMPLE_ONE.ts",
-  TWO: "./collection/SAMPLE_TWO.ts",
-};
+  ONE: './collection/SAMPLE_ONE.js',
+  TWO: './collection/SAMPLE_TWO.js',
+}
