@@ -1,6 +1,5 @@
 # Logs
 logs
-collection
 src/experiment.ts
 .env.example
 *.log
