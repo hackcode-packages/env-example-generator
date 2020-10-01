@@ -1,5 +1,5 @@
 {
-  "name": "env-example-generator",
+  "name": "@hackcode/env-example-generator",
   "version": "1.0.0",
   "description": "simple cli script to extract all environment variables being used in code",
   "main": "dist/app.js",
@@ -18,7 +18,7 @@
     "hackcode"
   ],
   "bin": {
-    "generate-env": "./dist/app.js"
+    "generate-env": "dist/app.js"
   },
   "author": "YashKumarVerma <yk.verma2000@gmail.com>",
   "license": "MIT",
