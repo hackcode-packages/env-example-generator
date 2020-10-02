@@ -1,6 +1,12 @@
 import fs from 'fs'
+import strip from 'strip-comments'
 
 export const Filter: string[] = ['!*.{ts,js,jsx}', 'node_modules/*']
+
+export const stripComments = (data: string): string => {
+  const strippedData = strip(data)
+  return strippedData
+}
 
 export const extractWordsFrom = (data: string): Array<string> => {
   const regexMatches: RegExpMatchArray = data.match(/process.env.\s*([^\W]*)/gi) || []
