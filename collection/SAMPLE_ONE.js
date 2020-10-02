@@ -24,6 +24,7 @@ exchangeCode = async (req, res, next) => {
       url: "https://accounts.google.com/o/oauth2/token",
       json: true,
       form: {
+	// replaced process.env.GOOGLE_ID for sematic purposes
         client_id: process.env.GOOGLE_CLIENT_ID,
         client_secret: process.env.GOOGLE_CLIENT_SECRET,
         grant_type: "authorization_code",
