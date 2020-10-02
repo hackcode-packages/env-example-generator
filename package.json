@@ -1,6 +1,6 @@
 {
   "name": "@hackcode/env-example-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simple cli script to extract all environment variables being used in code",
   "main": "dist/app.js",
   "scripts": {
